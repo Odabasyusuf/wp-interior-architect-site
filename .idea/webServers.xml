@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="0778fd77-b621-4911-9994-fe9426e3e1c5" name="hm-odabas-online" url="http://ftp.odabas.online">
+        <fileTransfer rootFolder="/wp-content" host="ftp.odabas.online" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
