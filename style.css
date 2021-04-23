@@ -3340,3 +3340,31 @@ section.store-area,
 .service-section-title h1{
     color: #B78E56 !important;
 }
+
+
+/* about us sayfasi  */
+.header-top-info a i {
+    background: #B78E56 !important;
+}
+.header-top-right ul li a {
+    color: #fff;
+}
+
+.main-menu ul li:hover > a::after,
+.main-menu ul li:hover > a {
+    color: #B78E56 !important;
+}
+.main-menu ul li.submenu > ul {
+    border-top: 4px solid #B78E56;
+}
+
+.header-bottom-btn a:hover,
+.header-bottom-search a:hover {
+    background: #B78E56;
+    border-color: #B78E56;
+    color: #fff;
+}
+.main-menu ul li.submenu > ul li:hover > a {
+    color: #B78E56;
+}
+
