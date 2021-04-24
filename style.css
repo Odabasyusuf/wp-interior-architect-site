@@ -3233,7 +3233,9 @@ section.store-area,
 
 .header-style-3 {
     /* background-color: red; */
-}
+}.header-style-3 {
+     border-top-color: #B78E56 !important;
+ }
 
 .theme-btn {
     background: #B78E56 !important;
@@ -3276,7 +3278,6 @@ section.store-area,
       }.service-box-2:hover .service-box-icon i::before, .service-box:hover .service-box-icon i::before {
                  color: #B78E75;
              }
-
 
 
 .gallery-menu button.active {
@@ -3349,10 +3350,12 @@ ul.footer-link li:hover a {
 /* about us sayfasi  */
 .header-top-info a i {
     background: #B78E56 !important;
-}
-.header-top-right ul li a {
+}.header-top-right ul li a {
     color: #fff;
-}
+}.header-style-1 .header-top-right ul li a:hover {
+     background: #B78E56 !important;
+     color: #fff;
+ }
 
 .main-menu ul li:hover > a::after,
 .main-menu ul li:hover > a {
@@ -3378,4 +3381,33 @@ ul.footer-link li:hover a {
 }.contact-info-box:hover {
     box-shadow: 0px 10px 29.7px 0.3px rgba(183, 142, 86, 0.65);
 }
+.section-title h1,
+.about-section .section-title h1,
+.who-we-are-wrapper .section-title h1 {
+    color: #B78E56;
+    background: rgba(183, 142, 86, 0.12)
+}
+
+
+/* Referans Sayfası  */
+
+.testimonial-wrap .testimonial-thumb i {
+    background: #B78E56;
+}.testimonial-wrap .testimonial-author span {
+     color: #B78E56;
+ }.testimonial-wrap:hover {
+      border-color: #B78E56;
+  }.testimonial-wrap:hover .testimonial-rating {
+       border-color: #B78E56;
+   }.slick-style .slick-arrow {
+      color: #B78E56;
+       border: 3px solid #B78E56;
+   }.slick-style .slick-arrow:hover {
+      border-color: #B78E75;
+      color: #B78E75;
+       }.slick-style .slick-dots li button {
+            background: #B78E75;
+        }.slick-style .slick-dots li.slick-active button::after {
+             border: 2px solid #B78E75;
+             }
 
