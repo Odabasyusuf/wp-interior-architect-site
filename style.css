@@ -3328,6 +3328,10 @@ section.store-area,
     background: #B78E75;
     border-color: #B78E75;
 }
+ul.footer-link li:hover::before,
+ul.footer-link li:hover a {
+    color: #B78E75;
+}
 
 .scroll-top {
     background: #B78E56 !important;
@@ -3366,5 +3370,12 @@ section.store-area,
 }
 .main-menu ul li.submenu > ul li:hover > a {
     color: #B78E56;
+}
+/*  iletisim sayfasi */
+
+.contact-info-box {
+    border: 1px solid #B78E56 !important;
+}.contact-info-box:hover {
+    box-shadow: 0px 10px 29.7px 0.3px rgba(183, 142, 86, 0.65);
 }
 
